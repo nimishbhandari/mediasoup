@@ -1,4 +1,6 @@
 import React from "react";
+
+import "./Main";
 import * as mediasoupClient from "mediasoup-client";
 
 const Media = () => {
@@ -19,12 +21,7 @@ const Media = () => {
       console.warn("browser not supported");
   }
 
-  return (
-    <div>
-      <div>media</div>
-      <div></div>
-    </div>
-  );
+  return <div>media</div>;
 };
 
 export default Media;
